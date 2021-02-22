@@ -226,6 +226,173 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "pettersamuelsen",
+      "name": "Petter Samuelsen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1244867?v=4",
+      "profile": "http://www.pettersamuelsen.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "usrbowe",
+      "name": "Lukas Kurucz",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5339061?v=4",
+      "profile": "https://github.com/usrbowe",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Norris1z",
+      "name": "Norris Oduro",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/18237132?v=4",
+      "profile": "https://twitter.com/norris1z",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "richardtks",
+      "name": "Richard Tan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43637878?v=4",
+      "profile": "https://github.com/richardtks",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "Jimbomaniak",
+      "name": "Oleg Kupriianov",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17765105?v=4",
+      "profile": "https://twitter.com/tysh_pysh",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "reilem",
+      "name": "reilem",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11155505?v=4",
+      "profile": "https://github.com/reilem",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "jozr",
+      "name": "Josephine Wright",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8154741?v=4",
+      "profile": "https://github.com/jozr",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "umbrella-kirill-karpov",
+      "name": "Kirill Karpov",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16078455?v=4",
+      "profile": "http://umbrellait.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "LiquidSean",
+      "name": "Sean Luthjohn",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1811319?v=4",
+      "profile": "https://github.com/LiquidSean",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "cuttlas",
+      "name": "cuttlas",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1228574?v=4",
+      "profile": "https://github.com/cuttlas",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "emanueleDiVizio",
+      "name": "Emanuele",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9089203?v=4",
+      "profile": "https://github.com/emanueleDiVizio",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "helderburato",
+      "name": "Helder Burato Berto",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/862575?v=4",
+      "profile": "https://helder.dev",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "ankeetmaini",
+      "name": "Ankeet Maini",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6652823?v=4",
+      "profile": "http://ankeetmaini.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "nipuna777",
+      "name": "Nipuna Gunathilake",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5859290?v=4",
+      "profile": "http://www.nipuna777.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "1ike",
+      "name": "1ike",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10694949?v=4",
+      "profile": "https://github.com/1ike",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JH108",
+      "name": "Jesse Hill",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/14010157?v=4",
+      "profile": "https://github.com/JH108",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "ugurakkurt",
+      "name": "ugur akkurt",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12188837?v=4",
+      "profile": "https://github.com/ugurakkurt",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "caiangums",
+      "name": "Ilê Caian",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7551787?v=4",
+      "profile": "https://github.com/caiangums",
+      "contributions": [
+        "doc"
+      ]
     }
-  ]
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
 }

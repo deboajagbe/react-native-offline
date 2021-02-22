@@ -1,0 +1,55 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/rgommezz/react-native-offline
+    parallelism: 1
+    shell: /bin/bash --login
+    environment:
+      CIRCLE_ARTIFACTS: /tmp/circleci-artifacts
+      CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
+    docker:
+    - image: circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
+    steps:
+    - checkout
+    - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
+    - run:
+        working_directory: ~/rgommezz/react-native-offline
+        command: nvm install 9.10.0 && nvm alias default 9.10.0
+    - run: npm i
+    # Restore the dependency cache
+    - restore_cache:
+        keys:
+        # This branch if available
+        - v3-dep-{{ .Branch }}-
+        # Default branch if not
+        - v3-dep-master-
+        # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
+        - v3-dep-
+    # Save dependency cache
+    - save_cache:
+        key: v3-dep-{{ .Branch }}-{{ epoch }}
+        paths:
+        # This is a broad list of cache paths to include many possible development environments
+        # You can probably delete some of these entries
+        - vendor/bundle
+        - ~/virtualenvs
+        - ~/.m2
+        - ~/.ivy2
+        - ~/.bundle
+        - ~/.go_workspace
+        - ~/.gradle
+        - ~/.cache/bower
+        - ./node_modules
+    # Test
+    - run: npm run lint
+    - run: npm run ts
+    - run: npm run test:coverage
+    # Teardown
+    # Save test results
+    - store_test_results:
+        path: /tmp/circleci-test-results
+    # Save artifacts
+    - store_artifacts:
+        path: /tmp/circleci-artifacts
+    - store_artifacts:
+        path: /tmp/circleci-test-results
